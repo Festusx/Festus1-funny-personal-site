@@ -18,7 +18,8 @@ h1 {
     color: red;
     /* font-family: 'Nosifer', cursive; */
     font-family: 'Sacramento', cursive;
-    font-size: 70px;
+    font-size: 5.62rem;
+    line-height: 2;
 }
 
 h2 { 
@@ -46,7 +47,9 @@ hr:after {
 
 p { 
     color: rgb(255, 255, 255);
-    font-family: 'Nosifer', cursive;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: normal;
 }
 
 
@@ -99,7 +102,7 @@ img {
     top: 270px;
     left: 655px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* display: none; */
+    display: none;
 }
 
 a { 
@@ -108,17 +111,23 @@ a {
 
 }
  .Cod { 
-    max-width: 250px;
+    width: 25%;
+    /* max-width: 250px;
     max-height: 350px;
-    border: solid 1rem;
+    border: solid 1rem; */
     border-color: red white;
+    float: left;
+    margin-right: 30px;
  }
  
  .elden { 
-    max-width: 350px;
+    width: 25%;
+    /* max-width: 350px;
     max-height: 350px;
     border: solid 1rem;
-    border-color: red white;
+    border-color: red white; */
+    float: right;
+    margin-left: 30px;
  }
 
  h3 { 
@@ -158,4 +167,12 @@ a {
     height:340px;
     position:relative;
     top: 100px;
+}
+
+
+.skill-row { 
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
